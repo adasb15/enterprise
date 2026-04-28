@@ -1,0 +1,2 @@
+wwwroot\index.html
+E:\Studia\Sem 1\Enterprice\WebApiAjax\WebApiAjax\wwwroot\index.html

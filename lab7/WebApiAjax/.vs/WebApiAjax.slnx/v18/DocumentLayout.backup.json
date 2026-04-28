@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\webapiajax.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\webapiajax.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\webapiajax.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\webapiajax.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\webapiajax.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\webapiajax.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|e:\\studia\\sem 1\\enterprice\\webapiajax\\webapiajax\\calcresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53E2BAA-D716-46E0-9C85-3830C4DBCE1D}|WebApiAjax\\WebApiAjax.csproj|solutionrelative:webapiajax\\calcresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebApiAjax",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\WebApiAjax.csproj",
+              "RelativeDocumentMoniker": "WebApiAjax\\WebApiAjax.csproj",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\WebApiAjax.csproj",
+              "RelativeToolTip": "WebApiAjax\\WebApiAjax.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-26T15:24:04.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.html",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "WebApiAjax\\wwwroot\\index.html",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\wwwroot\\index.html*",
+              "RelativeToolTip": "WebApiAjax\\wwwroot\\index.html*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-26T15:19:59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebApiAjax",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\WebApiAjax.csproj",
+              "RelativeDocumentMoniker": "WebApiAjax\\WebApiAjax.csproj",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\WebApiAjax.csproj",
+              "RelativeToolTip": "WebApiAjax\\WebApiAjax.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-26T15:17:23.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApiAjax\\appsettings.json",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\appsettings.json",
+              "RelativeToolTip": "WebApiAjax\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T15:13:47.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebApiAjax.http",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\WebApiAjax.http",
+              "RelativeDocumentMoniker": "WebApiAjax\\WebApiAjax.http",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\WebApiAjax.http",
+              "RelativeToolTip": "WebApiAjax\\WebApiAjax.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-26T15:13:20.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiAjax\\Program.cs",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\Program.cs",
+              "RelativeToolTip": "WebApiAjax\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:10:38.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CalcResult.cs",
+              "DocumentMoniker": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\CalcResult.cs",
+              "RelativeDocumentMoniker": "WebApiAjax\\CalcResult.cs",
+              "ToolTip": "E:\\Studia\\Sem 1\\Enterprice\\WebApiAjax\\WebApiAjax\\CalcResult.cs",
+              "RelativeToolTip": "WebApiAjax\\CalcResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:10:27.682Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
