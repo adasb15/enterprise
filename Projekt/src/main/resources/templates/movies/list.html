@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katalog filmów</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div th:replace="fragments/layout :: header"></div>
+
+<main class="page">
+    <section class="page-heading">
+        <div>
+            <h1>Katalog filmów</h1>
+            <p>Lista zawiera podstawowe informacje o filmach. Opis fabuły jest dostępny w szczegółach.</p>
+        </div>
+        <form class="filter-form" method="get" th:action="@{/movies}">
+            <label for="category">Kategoria</label>
+            <select id="category" name="category" onchange="this.form.submit()">
+                <option value="">Wszystkie</option>
+                <option th:each="category : ${categories}"
+                        th:value="${category.name()}"
+                        th:selected="${category == selectedCategory}"
+                        th:text="${category.displayName}">
+                    Kategoria
+                </option>
+            </select>
+        </form>
+    </section>
+
+    <div class="notice" th:if="${message}" th:text="${message}">Komunikat</div>
+
+    <section class="movie-grid" aria-label="Filmy">
+        <article class="movie-card" th:each="movie : ${movies}">
+            <div class="movie-card__body">
+                <span class="pill" th:text="${movie.category.displayName}">Kategoria</span>
+                <h2 th:text="${movie.title}">Tytuł filmu</h2>
+                <dl class="movie-meta">
+                    <div>
+                        <dt>Rok</dt>
+                        <dd th:text="${movie.productionYear}">2024</dd>
+                    </div>
+                    <div>
+                        <dt>Cena</dt>
+                        <dd><span th:text="${#numbers.formatDecimal(movie.price, 1, 2)}">29.99</span> zł</dd>
+                    </div>
+                </dl>
+            </div>
+            <div class="movie-card__actions">
+                <a class="button secondary" th:href="@{/movies/{id}(id=${movie.id})}">Szczegóły</a>
+                <form method="post" th:action="@{/cart/add/{id}(id=${movie.id})}">
+                    <button class="button primary" type="submit">Dodaj</button>
+                </form>
+            </div>
+        </article>
+    </section>
+</main>
+</body>
+</html>

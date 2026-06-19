@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<body>
+<header class="site-header" th:fragment="header">
+    <a class="brand" th:href="@{/movies}">Sklep z filmami</a>
+    <nav class="main-nav">
+        <a th:href="@{/movies}">Katalog</a>
+        <a th:href="@{/cart}">Koszyk <span th:text="${cartItemCount}">0</span></a>
+    </nav>
+</header>
+</body>
+</html>

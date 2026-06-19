@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Koszyk</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div th:replace="fragments/layout :: header"></div>
+
+<main class="page">
+    <section class="page-heading">
+        <div>
+            <h1>Koszyk</h1>
+            <p>Podgląd zawartości koszyka i całkowitej wartości zakupów.</p>
+        </div>
+        <a class="button secondary" th:href="@{/movies}">Kontynuuj zakupy</a>
+    </section>
+
+    <div class="notice" th:if="${message}" th:text="${message}">Komunikat</div>
+
+    <section class="empty-state" th:if="${cart.empty}">
+        <h2>Koszyk jest pusty</h2>
+        <p>Dodaj film z katalogu, aby zobaczyc podsumowanie.</p>
+        <a class="button primary" th:href="@{/movies}">Przejdz do katalogu</a>
+    </section>
+
+    <section class="cart-table" th:unless="${cart.empty}">
+        <div class="cart-row cart-row--header">
+            <span>Film</span>
+            <span>Ilość</span>
+            <span>Cena</span>
+            <span>Suma</span>
+            <span></span>
+        </div>
+
+        <div class="cart-row" th:each="item : ${cart.items}">
+            <div>
+                <strong th:text="${item.movie.title}">Tytuł</strong>
+                <small th:text="${item.movie.category.displayName}">Kategoria</small>
+            </div>
+            <span th:text="${item.quantity}">1</span>
+            <span><span th:text="${#numbers.formatDecimal(item.movie.price, 1, 2)}">29.99</span> zł</span>
+            <span><span th:text="${#numbers.formatDecimal(item.subtotal, 1, 2)}">29.99</span> zł</span>
+            <form method="post" th:action="@{/cart/remove/{id}(id=${item.movie.id})}">
+                <button class="button danger" type="submit">Usuń</button>
+            </form>
+        </div>
+
+        <div class="cart-summary">
+            <form method="post" th:action="@{/cart/clear}">
+                <button class="button secondary" type="submit">Wyczyść koszyk</button>
+            </form>
+            <strong>Razem: <span th:text="${#numbers.formatDecimal(cart.total, 1, 2)}">0.00</span> zł</strong>
+        </div>
+    </section>
+</main>
+</body>
+</html>

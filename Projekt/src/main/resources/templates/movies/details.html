@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title th:text="${movie.title}">Szczegóły filmu</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}">
+</head>
+<body>
+<div th:replace="fragments/layout :: header"></div>
+
+<main class="page narrow">
+    <a class="back-link" th:href="@{/movies}">Powrót do katalogu</a>
+
+    <article class="details-panel">
+        <div class="details-panel__heading">
+            <span class="pill" th:text="${movie.category.displayName}">Kategoria</span>
+            <h1 th:text="${movie.title}">Tytuł filmu</h1>
+        </div>
+
+        <dl class="details-list">
+            <div>
+                <dt>Rok produkcji</dt>
+                <dd th:text="${movie.productionYear}">2024</dd>
+            </div>
+            <div>
+                <dt>Cena</dt>
+                <dd><span th:text="${#numbers.formatDecimal(movie.price, 1, 2)}">29.99</span> zł</dd>
+            </div>
+        </dl>
+
+        <section class="plot">
+            <h2>Opis fabuły</h2>
+            <p th:text="${movie.plotDescription}">Opis filmu.</p>
+        </section>
+
+        <form method="post" th:action="@{/cart/add/{id}(id=${movie.id})}">
+            <button class="button primary" type="submit">Dodaj do koszyka</button>
+        </form>
+    </article>
+</main>
+</body>
+</html>
